@@ -1,0 +1,38 @@
+{
+  "evaluated_at": "2026-10-28T21:02:28.988221+08:00",
+  "dataset_role": "development",
+  "top_k": 5,
+  "candidate_k": 10,
+  "rrf_k": 60,
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "collection_count": 64,
+  "summary": {
+    "vector": {
+      "hit_count": 17,
+      "total": 20,
+      "hit_at_5": 0.85,
+      "median_ms": 24.240549886599183
+    },
+    "bm25": {
+      "hit_count": 12,
+      "total": 20,
+      "hit_at_5": 0.6,
+      "median_ms": 0.5605998449027538
+    },
+    "hybrid": {
+      "hit_count": 17,
+      "total": 20,
+      "hit_at_5": 0.85,
+      "median_ms": 25.301150046288967
+    }
+  },
+  "hybrid_improved_question_ids": [
+    "Q07",
+    "Q08"
+  ],
+  "hybrid_regressed_question_ids": [
+    "Q13",
+    "Q16"
+  ],
+  "scope": "历史开发语料64片段、20题的实验记录；本公开仓库仅包含3个自写规则片段，不能直接复现该数值，也不代表公开版本回答准确率。"
+}

@@ -1,0 +1,3 @@
+{"source": "project_notes.md", "page": null, "section": "段落1", "chunk_id": "project_notes.md:s1", "text": "【平均航速计算】本项目的平均航速，是该船所有有效航速记录的算术平均值：有效航速之和除以有效记录数。零航速属于有效值，需要参与计算。该指标不是按时间加权的平均值。"}
+{"source": "project_notes.md", "page": null, "section": "段落2", "chunk_id": "project_notes.md:s2", "text": "【缺失数据处理】CSV 中的空白航速转换为 Python 的 None，不参与航速统计。如果船舶有记录，但航速全部缺失，查询状态为 no_valid_speed。如果当前数据中没有该船记录，查询状态为 not_found。"}
+{"source": "project_notes.md", "page": null, "section": "段落3", "chunk_id": "project_notes.md:s3", "text": "【数据范围】本项目使用本地演示数据，不代表船舶实时状态。船舶编号和航速来自 ships.csv。当前数据中没有某艘船的记录，不能据此判断现实中该船不存在。"}
